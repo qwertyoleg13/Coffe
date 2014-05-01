@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4ECB4041912DE170005AD8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ECB4031912DE170005AD8A /* Foundation.framework */; };
+		D4ECB4061912DE170005AD8A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ECB4051912DE170005AD8A /* CoreGraphics.framework */; };
+		D4ECB4081912DE170005AD8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ECB4071912DE170005AD8A /* UIKit.framework */; };
+		D4ECB40E1912DE170005AD8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4ECB40C1912DE170005AD8A /* InfoPlist.strings */; };
+		D4ECB4101912DE170005AD8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ECB40F1912DE170005AD8A /* main.m */; };
+		D4ECB4141912DE170005AD8A /* OPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ECB4131912DE170005AD8A /* OPAppDelegate.m */; };
+		D4ECB4171912DE170005AD8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4ECB4151912DE170005AD8A /* Main.storyboard */; };
+		D4ECB41A1912DE170005AD8A /* OPFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ECB4191912DE170005AD8A /* OPFirstViewController.m */; };
+		D4ECB41D1912DE170005AD8A /* OPSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ECB41C1912DE170005AD8A /* OPSecondViewController.m */; };
+		D4ECB41F1912DE170005AD8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4ECB41E1912DE170005AD8A /* Images.xcassets */; };
+		D4ECB4261912DE170005AD8A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ECB4251912DE170005AD8A /* XCTest.framework */; };
+		D4ECB4271912DE170005AD8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ECB4031912DE170005AD8A /* Foundation.framework */; };
+		D4ECB4281912DE170005AD8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ECB4071912DE170005AD8A /* UIKit.framework */; };
+		D4ECB4301912DE170005AD8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4ECB42E1912DE170005AD8A /* InfoPlist.strings */; };
+		D4ECB4321912DE170005AD8A /* CoffeeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ECB4311912DE170005AD8A /* CoffeeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4ECB4291912DE170005AD8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4ECB3F81912DE170005AD8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4ECB3FF1912DE170005AD8A;
+			remoteInfo = Coffee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4ECB4001912DE170005AD8A /* Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4ECB4031912DE170005AD8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4ECB4051912DE170005AD8A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D4ECB4071912DE170005AD8A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D4ECB40B1912DE170005AD8A /* Coffee-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Coffee-Info.plist"; sourceTree = "<group>"; };
+		D4ECB40D1912DE170005AD8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4ECB40F1912DE170005AD8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4ECB4111912DE170005AD8A /* Coffee-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Coffee-Prefix.pch"; sourceTree = "<group>"; };
+		D4ECB4121912DE170005AD8A /* OPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPAppDelegate.h; sourceTree = "<group>"; };
+		D4ECB4131912DE170005AD8A /* OPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPAppDelegate.m; sourceTree = "<group>"; };
+		D4ECB4161912DE170005AD8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4ECB4181912DE170005AD8A /* OPFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPFirstViewController.h; sourceTree = "<group>"; };
+		D4ECB4191912DE170005AD8A /* OPFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPFirstViewController.m; sourceTree = "<group>"; };
+		D4ECB41B1912DE170005AD8A /* OPSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPSecondViewController.h; sourceTree = "<group>"; };
+		D4ECB41C1912DE170005AD8A /* OPSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPSecondViewController.m; sourceTree = "<group>"; };
+		D4ECB41E1912DE170005AD8A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D4ECB4241912DE170005AD8A /* CoffeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4ECB4251912DE170005AD8A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D4ECB42D1912DE170005AD8A /* CoffeeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoffeeTests-Info.plist"; sourceTree = "<group>"; };
+		D4ECB42F1912DE170005AD8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4ECB4311912DE170005AD8A /* CoffeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4ECB3FD1912DE170005AD8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4ECB4061912DE170005AD8A /* CoreGraphics.framework in Frameworks */,
+				D4ECB4081912DE170005AD8A /* UIKit.framework in Frameworks */,
+				D4ECB4041912DE170005AD8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4ECB4211912DE170005AD8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4ECB4261912DE170005AD8A /* XCTest.framework in Frameworks */,
+				D4ECB4281912DE170005AD8A /* UIKit.framework in Frameworks */,
+				D4ECB4271912DE170005AD8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4ECB3F71912DE170005AD8A = {
+			isa = PBXGroup;
+			children = (
+				D4ECB4091912DE170005AD8A /* Coffee */,
+				D4ECB42B1912DE170005AD8A /* CoffeeTests */,
+				D4ECB4021912DE170005AD8A /* Frameworks */,
+				D4ECB4011912DE170005AD8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4ECB4011912DE170005AD8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4ECB4001912DE170005AD8A /* Coffee.app */,
+				D4ECB4241912DE170005AD8A /* CoffeeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4ECB4021912DE170005AD8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4ECB4031912DE170005AD8A /* Foundation.framework */,
+				D4ECB4051912DE170005AD8A /* CoreGraphics.framework */,
+				D4ECB4071912DE170005AD8A /* UIKit.framework */,
+				D4ECB4251912DE170005AD8A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4ECB4091912DE170005AD8A /* Coffee */ = {
+			isa = PBXGroup;
+			children = (
+				D4ECB4121912DE170005AD8A /* OPAppDelegate.h */,
+				D4ECB4131912DE170005AD8A /* OPAppDelegate.m */,
+				D4ECB4151912DE170005AD8A /* Main.storyboard */,
+				D4ECB4181912DE170005AD8A /* OPFirstViewController.h */,
+				D4ECB4191912DE170005AD8A /* OPFirstViewController.m */,
+				D4ECB41B1912DE170005AD8A /* OPSecondViewController.h */,
+				D4ECB41C1912DE170005AD8A /* OPSecondViewController.m */,
+				D4ECB41E1912DE170005AD8A /* Images.xcassets */,
+				D4ECB40A1912DE170005AD8A /* Supporting Files */,
+			);
+			path = Coffee;
+			sourceTree = "<group>";
+		};
+		D4ECB40A1912DE170005AD8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4ECB40B1912DE170005AD8A /* Coffee-Info.plist */,
+				D4ECB40C1912DE170005AD8A /* InfoPlist.strings */,
+				D4ECB40F1912DE170005AD8A /* main.m */,
+				D4ECB4111912DE170005AD8A /* Coffee-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4ECB42B1912DE170005AD8A /* CoffeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4ECB4311912DE170005AD8A /* CoffeeTests.m */,
+				D4ECB42C1912DE170005AD8A /* Supporting Files */,
+			);
+			path = CoffeeTests;
+			sourceTree = "<group>";
+		};
+		D4ECB42C1912DE170005AD8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4ECB42D1912DE170005AD8A /* CoffeeTests-Info.plist */,
+				D4ECB42E1912DE170005AD8A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4ECB3FF1912DE170005AD8A /* Coffee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4ECB4351912DE170005AD8A /* Build configuration list for PBXNativeTarget "Coffee" */;
+			buildPhases = (
+				D4ECB3FC1912DE170005AD8A /* Sources */,
+				D4ECB3FD1912DE170005AD8A /* Frameworks */,
+				D4ECB3FE1912DE170005AD8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coffee;
+			productName = Coffee;
+			productReference = D4ECB4001912DE170005AD8A /* Coffee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4ECB4231912DE170005AD8A /* CoffeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4ECB4381912DE170005AD8A /* Build configuration list for PBXNativeTarget "CoffeeTests" */;
+			buildPhases = (
+				D4ECB4201912DE170005AD8A /* Sources */,
+				D4ECB4211912DE170005AD8A /* Frameworks */,
+				D4ECB4221912DE170005AD8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4ECB42A1912DE170005AD8A /* PBXTargetDependency */,
+			);
+			name = CoffeeTests;
+			productName = CoffeeTests;
+			productReference = D4ECB4241912DE170005AD8A /* CoffeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4ECB3F81912DE170005AD8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Oleg Petrushov";
+				TargetAttributes = {
+					D4ECB4231912DE170005AD8A = {
+						TestTargetID = D4ECB3FF1912DE170005AD8A;
+					};
+				};
+			};
+			buildConfigurationList = D4ECB3FB1912DE170005AD8A /* Build configuration list for PBXProject "Coffee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4ECB3F71912DE170005AD8A;
+			productRefGroup = D4ECB4011912DE170005AD8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4ECB3FF1912DE170005AD8A /* Coffee */,
+				D4ECB4231912DE170005AD8A /* CoffeeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4ECB3FE1912DE170005AD8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4ECB41F1912DE170005AD8A /* Images.xcassets in Resources */,
+				D4ECB40E1912DE170005AD8A /* InfoPlist.strings in Resources */,
+				D4ECB4171912DE170005AD8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4ECB4221912DE170005AD8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4ECB4301912DE170005AD8A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4ECB3FC1912DE170005AD8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4ECB41A1912DE170005AD8A /* OPFirstViewController.m in Sources */,
+				D4ECB41D1912DE170005AD8A /* OPSecondViewController.m in Sources */,
+				D4ECB4101912DE170005AD8A /* main.m in Sources */,
+				D4ECB4141912DE170005AD8A /* OPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4ECB4201912DE170005AD8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4ECB4321912DE170005AD8A /* CoffeeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4ECB42A1912DE170005AD8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4ECB3FF1912DE170005AD8A /* Coffee */;
+			targetProxy = D4ECB4291912DE170005AD8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4ECB40C1912DE170005AD8A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4ECB40D1912DE170005AD8A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D4ECB4151912DE170005AD8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4ECB4161912DE170005AD8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4ECB42E1912DE170005AD8A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4ECB42F1912DE170005AD8A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4ECB4331912DE170005AD8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4ECB4341912DE170005AD8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4ECB4361912DE170005AD8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coffee/Coffee-Prefix.pch";
+				INFOPLIST_FILE = "Coffee/Coffee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4ECB4371912DE170005AD8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coffee/Coffee-Prefix.pch";
+				INFOPLIST_FILE = "Coffee/Coffee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D4ECB4391912DE170005AD8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Coffee.app/Coffee";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coffee/Coffee-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CoffeeTests/CoffeeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D4ECB43A1912DE170005AD8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Coffee.app/Coffee";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coffee/Coffee-Prefix.pch";
+				INFOPLIST_FILE = "CoffeeTests/CoffeeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4ECB3FB1912DE170005AD8A /* Build configuration list for PBXProject "Coffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4ECB4331912DE170005AD8A /* Debug */,
+				D4ECB4341912DE170005AD8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4ECB4351912DE170005AD8A /* Build configuration list for PBXNativeTarget "Coffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4ECB4361912DE170005AD8A /* Debug */,
+				D4ECB4371912DE170005AD8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4ECB4381912DE170005AD8A /* Build configuration list for PBXNativeTarget "CoffeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4ECB4391912DE170005AD8A /* Debug */,
+				D4ECB43A1912DE170005AD8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4ECB3F81912DE170005AD8A /* Project object */;
+}
